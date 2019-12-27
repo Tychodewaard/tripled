@@ -4,3 +4,4 @@ $tosic-footer-background: theme-color("primary");
 $tosic-footer-color: #fff;
 $tosic-link-decoration: none; // Custom 2sic variable
 $line-height-computed: floor(($font-size-base * $line-height-base)); // Deprecated: this variable was removed in bootstrap 4 - todo: find usages and remove variable if not needed
+

@@ -21,6 +21,7 @@
 	}
 	p { margin-bottom: $font-size-base * 0.6875; }
 	h1, h2 { 
+		font-family: $microgbe !important;
 		font-weight: $headings-font-weight;
 	}
 	h1 { 

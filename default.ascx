@@ -48,7 +48,7 @@
 				</a>
 
 				<nav id="nav-desktop" class="navbar d-none d-lg-block">
-					<dnn:MENU MenuStyle="nav/main" NodeSelector="*,0,0" runat="server" />
+					<dnn:MENU MenuStyle="nav/main" runat="server" />
 				</nav>
 
 			</div>
@@ -73,19 +73,18 @@
 						<div id="RightPane" runat="server" containertype="G" containername="Invisible Container" containersrc="default.ascx"></div>
 					</div>
 					<div class="col-xs-12 col-lg-3 order-lg-1 ly-col-leftpane">
-						<div id="nav-sub" class="d-none d-sm-block">
-							<dnn:MENU MenuStyle="nav/sub" NodeSelector="+0,0,2" runat="server" />
-						</div>
-						<div class="d-block d-sm-none">
-							<dnn:MENU MenuStyle="nav/sub" NodeSelector="CurrentChildren" runat="server" />
-						</div>
+							<div id="LeftPane" runat="server" containertype="G" containername="Invisible Container" containersrc="default.ascx"></div>
 					</div>
 				</div>
+
 			<div class="ly-footerpane ">
 					<div id="FooterPaneLeft" class="col-md-6  footer-background" runat="server" containertype="G" containername="Invisible Container" containersrc="default.ascx"></div>
 					<div id="FooterPaneRight" class="col-md-6  footer-background" runat="server" containertype="G" containername="Invisible Container" containersrc="default.ascx"></div>
 				</div>
 			</div>
+	<div class="container-fluid">
+			<div id="FullPane" runat="server" containertype="G" containername="Invisible Container" containersrc="default.ascx"></div>
+	</div>
 			  <div class="wide">
     <div class="row">
       <div id="LeftHalfPane1" class="col-md-6" runat="server"></div>

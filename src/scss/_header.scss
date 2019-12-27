@@ -1,0 +1,66 @@
+    
+    #dnn_ctr573_ModuleContent {
+        background-color: #000 !important;
+        }
+        
+        @media (max-width: 767.99px) {
+        .header-background {
+        background-image: url(/Portals/0/Images/header-images/01.jpg);
+        /*opacity:0.8;*/
+        }
+        }
+        
+        @media (min-width: 767.98px) {
+        .header-background {
+        background-image: url(/Portals/0/Images/header-images/01.jpg);
+        min-height: 30em !important;
+        /*opacity:0.8;*/
+        }
+        }
+        
+        .header-headline {
+        color:#fff;
+        /*float:left;*/
+        }
+        
+        .header-teaser {
+        font-weight:bold !important;
+        }
+        
+
+        @media (min-width: 3839.99px) {
+            .header-textblock {
+            text-align:left;
+            margin-left: 53em !important;
+            margin-right: 53em !important;
+            padding-top:6em !important;
+                }
+            }
+
+        @media (min-width: 1919.99px) and (max-width: 3839.98px) {
+        .header-textblock {
+        text-align:left;
+        margin-left: 23em !important;
+        margin-right: 23em !important;
+        padding-top:6em !important;
+            }
+        }
+        
+        @media (max-width: 1919.98px)  {
+        .header-textblock {
+        text-align:left;
+        margin-left: 1em !important;
+        margin-right: 1em !important;
+        padding-top:0 !important;
+            }
+        }
+        
+        @media (min-width: 767.99px)  {
+        .header-textblock2 {
+        text-align:center;
+        margin-left: 25em !important;
+        margin-right:25em !important;
+        margin-top:10m !important;
+            }
+        }
+        
